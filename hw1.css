@@ -1,0 +1,30 @@
+h1,h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    margin:auto;
+    width:75%;
+    text-align: center;
+    text-decoration:underline;
+}
+
+body{
+    background-color: #fef7fc;
+}
+
+.box, .box>div{
+    background-color: #fefefe;
+    border: 2px solid #3b3b3b;
+    outline: auto;
+    margin: 5px;
+}
+
+.box:hover{
+    background-color: #d8d5d5;
+}
+
+.image{
+    background-color: #fefefe;
+    border: 1px solid #3b3b3b;
+    width: 50%;
+}
