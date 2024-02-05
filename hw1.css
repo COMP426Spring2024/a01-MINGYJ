@@ -117,11 +117,22 @@ a .box:hover{
     text-align: end;
 }
 
-.bottom a{
+.bottom a, p a{
     color: #3b3b3b;
     font-size: large;
 }
 
 .bottom a:hover{
     color: #ff0000;
+}
+
+#sword_img{
+    width: 200px;
+    float: right;
+    border: 1px solid #000000;
+    margin: 5px 10px 10px 0px;
+}
+
+#sword_txt{
+    float: left;
 }
