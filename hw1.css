@@ -26,9 +26,12 @@ p{
 body{
     background-color: #fef7fc;
     position: relative;
+    max-width: 700px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-ul,c{
+ul, ol{
     list-style:circle;
     
 }
