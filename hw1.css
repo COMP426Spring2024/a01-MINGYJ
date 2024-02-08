@@ -139,3 +139,14 @@ a .box:hover{
 #sword_txt{
     float: left;
 }
+
+#selector{
+    text-align: center;
+}
+
+select, button{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-size: medium;
+}
