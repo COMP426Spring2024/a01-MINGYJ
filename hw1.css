@@ -150,3 +150,8 @@ select, button{
     margin: 10px;
     font-size: medium;
 }
+
+#selector_des p{
+    display: none;
+    margin-left: 10px;
+}

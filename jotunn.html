@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="hw1.css">
         <title>Jötunn</title>
         <link rel="icon" href="./image/gardian.png" type="image/png">
-        <script type="text/javescript" src="./hw1.js"></script>
+        <script src="hw1.js"></script>
     </head>
     <body>
         <h1>Jötunn-Giant Against God</h1>
@@ -48,16 +48,22 @@
                 </tr>
             </table>
         </div>
-        <div class="box" style="width:100%;">
-            <h4 id="selector">What Jötunn Have you Ever Heard Of?</h4>
-            <select name="jotnar_select" id="jotnar">
-                <option value="Select">Select</option>
+        <div class="box" id="selector_des" style="width:100%;">
+            <h4 id="selector">What Jötunn you want to know more?</h4>
+            <select id="jotnar_selector">
+                <option value="Select" selected>Not Selected</option>
                 <option value="ymir">Ymir</option>
-                <option value="Surtr">Surtr</option>
-                <option value="Thrym">Thrym</option>
-                <option value="Aegir">Ægir</option>
+                <option value="surtr">Surtr</option>
+                <option value="thrym">Thrym</option>
+                <option value="aegir">Ægir</option>
             </select>
-            <button type="button" value="submit">Submit</button>
+            <p id="ymir_des">You can know more about Ymir(Norse mythology) on <a href="https://en.wikipedia.org/wiki/Ymir">wikipedia</a><br>
+            Or the Ymir(AoT, the Founding Titan) from <a href="https://attackontitan.fandom.com/wiki/Ymir_Fritz">fandom</a> as well.</p>
+            <p id="surtr_des">Congratulation, You are already reading a page about Surtr!<br>
+            If you want to know more about the Surtr(Arknight), you can view it on <a href="https://arknights.fandom.com/wiki/Surtr">fandom</a>.</p>
+            <p id="thrym_des">There is lots information about Thrym, or Þrymr, on <a href="https://en.wikipedia.org/wiki/%C3%9Erymr">wikipedia</a>.</p>
+            <p id="aegir_des">You can know more about Ægir on this <a href="https://mythus.fandom.com/wiki/%C3%86gir">fandom</a> focuses on Norse mythology. <br>
+            Or Aegir(Arknight) on this <a href="https://arknights.fandom.com/wiki/Aegir_(race)">fandom</a> as well.</p>
         </div>
         <div class="bottom">
             <a href="index.html">Back to Index>></a>
